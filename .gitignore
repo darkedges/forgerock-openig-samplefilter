@@ -3,3 +3,6 @@
 .classpath
 target/
 test-output/
+src/main/openig/data
+src/main/openig/logs
+src/main/openig/tmp
