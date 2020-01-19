@@ -148,23 +148,35 @@ git checkout https://github.com/darkedges/forgerock-openig-samplefilter.git
     curl -s http://localhost:8080/samplefilter
    ```
 
-   should return
+   should return similair to
 
    ```bash
-	{
-		"headers": {
-			"accept": [
-				"*/*"
-			],
-			"host": [
-				"localhost:8080"
-			],
-			"user-agent": [
-				"curl/7.57.0"
-			],
-			"X-Greeting": [
-				"Hello world"
-			]
-		}
-	}
+
+   > GET /samplefilter HTTP/1.1
+   > Host: localhost:8080
+   > User-Agent: curl/7.57.0
+   > Accept: */*
+   >
+   < HTTP/1.1 200
+   < X-Greeting: Hello world
+   < Content-Type: application/json;charset=UTF-8
+   < Content-Length: 114
+   < Date: Sun, 19 Jan 2020 17:47:44 GMT
+
+   {
+      "headers": {
+         "accept": [
+            "*/*"
+         ],
+         "host": [
+            "localhost:8080"
+         ],
+         "user-agent": [
+            "curl/7.57.0"
+         ],
+         "X-Greeting": [
+            "Hello world"
+         ]
+      }
+   }
    ```
