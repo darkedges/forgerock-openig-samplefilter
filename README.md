@@ -113,13 +113,21 @@ edit `~/.m2/registry/org/forgerock/openig/openig-core/6.5.2/openig-core-6.5.2.po
 ## Deploy OpenIG
 
 1. Download and extract the latest [Apache Tomcat 9.x](https://tomcat.apache.org/download-90.cgi) to a `tomcat known location`
+   
    **__Note:__** As of this document the version is `6.5.2`
+   
 1. delete the contents of `<tomcat known location>/webapps/ROOT`
+
 1. copy the contents of `<openig known location>` to `<tomcat known location>/webapps/ROOT`
+   
    **__Note:__** `<tomcat known location>/webapps/ROOT` shoulc contain 2 directories `META-INF` and `WEB-INF`
+   
 1. rename `<tomcat known location>/webapps/IG-eval-6.5.2` to `tomcat known location/webapps/ROOT`
+
 1. copy `<maven project>/target/samplefilter-0.0.1-SNAPSHOT.jar` to `<tomcat known location>/webapps/ROOT/WEB-INF/lib`
+
 1. Start Apache Tomcat 9.x via `<tomcat known location>/bin/startup.sh|.bat`
+
 1. Confirm it is working 
    ```bash
    curl -s http://localhost:8080/
