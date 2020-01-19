@@ -2,7 +2,7 @@
 
 This projects implements the sample filter at [https://backstage.forgerock.com/docs/ig/6.5/gateway-guide/#about-custom-extensions](https://backstage.forgerock.com/docs/ig/6.5/gateway-guide/#about-custom-extensions)
 
-It further adds in testing of both the [Request](blob/master/src/test/java/org/forgerock/openig/doc/SampleFilterTest.java#L125-L156) and [Response](blob/master/src/test/java/org/forgerock/openig/doc/SampleFilterTest.java#L125-L156) aspects of the filter through [blob/master/src/test/java/org/forgerock/openig/doc/SampleFilterTest.java](blob/master/src/test/java/org/forgerock/openig/doc/SampleFilterTest.java#L125-L156)
+It further adds in testing of both the [Request](src/test/java/org/forgerock/openig/doc/SampleFilterTest.java#L125-L156) and [Response](src/test/java/org/forgerock/openig/doc/SampleFilterTest.java#L125-L156) aspects of the filter through [src/test/java/org/forgerock/openig/doc/SampleFilterTest.java](src/test/java/org/forgerock/openig/doc/SampleFilterTest.java#L125-L156)
 
 
 ## Build
