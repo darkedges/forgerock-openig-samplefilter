@@ -152,18 +152,19 @@ git checkout https://github.com/darkedges/forgerock-openig-samplefilter.git
 
    ```bash
 	{
-	"headers": {
-		"accept": [
-			"*/*"
-		],
-		"host": [
-			"localhost:8080"
-		],
-		"user-agent": [
-			"curl/7.57.0"
-		],
-		"X-Greeting": [
-			"Hello world"
-		]
+		"headers": {
+			"accept": [
+				"*/*"
+			],
+			"host": [
+				"localhost:8080"
+			],
+			"user-agent": [
+				"curl/7.57.0"
+			],
+			"X-Greeting": [
+				"Hello world"
+			]
+		}
 	}
    ```
