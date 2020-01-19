@@ -142,7 +142,7 @@ git checkout https://github.com/darkedges/forgerock-openig-samplefilter.git
 
 1. Start Apache Tomcat 9.x via `<tomcat known location>/bin/startup.sh`
 
-1. Confirm it is working 
+1. Confirm it is working
 
    ```bash
     curl -s http://localhost:8080/samplefilter
@@ -152,19 +152,19 @@ git checkout https://github.com/darkedges/forgerock-openig-samplefilter.git
 
    ```bash
 	{
-		"headers": {
-			"accept": [
-			"*/*"
-			],
-			"host": [
-			"localhost:8080"
-			],
-			"user-agent": [
-			"curl/7.57.0"
+	"headers": {
+		"accept": [
+		"*/*"
+		],
+		"host": [
+		"localhost:8080"
+		],
+		"user-agent": [
+		"curl/7.57.0"
 		],
 		"X-Greeting": [
-			"Hello world"
+		"Hello world"
 		]
-		}
+	}
 	}
    ```
