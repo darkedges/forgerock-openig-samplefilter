@@ -166,5 +166,4 @@ git checkout https://github.com/darkedges/forgerock-openig-samplefilter.git
 		"Hello world"
 		]
 	}
-	}
    ```
